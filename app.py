@@ -54,7 +54,7 @@ if st.button("Generate Seminar Presentation (15+ Slides)"):
                     """
                     
                     response = client.models.generate_content(
-                        model='gemini-2.5-flash',
+                        model='gemini-1.5-flash',
                         contents=prompt,
                     )
                     
